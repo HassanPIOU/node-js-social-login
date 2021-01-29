@@ -1,0 +1,33 @@
+{
+  "name": "authentification-passport",
+  "version": "1.0.0",
+  "description": "Authentification Node Js using Passport ",
+  "main": "index.js",
+  "keywords": [],
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Hassan PIOU",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "google-auth-library": "^6.1.6",
+    "hbs": "^4.1.1",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-github2": "^0.1.12",
+    "passport-linkedin-oauth2": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

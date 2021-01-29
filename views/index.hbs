@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="google-signin-client_id" content="{{clientId}}">
+    <title>Authentification google</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/app.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<body>
+<div class="signup">
+    <div class="signup-connect">
+        <h1>Login with : </h1>
+        <a href="#" class="btn btn-social btn-facebook"><i class="fa fa-facebook"></i> Sign in with Facebook</a>
+        <a href="#" class="btn btn-social btn-github"><i class="fa fa-github"></i> Sign in with Github</a>
+        <a href="javascript:void(0)" class="btn btn-social btn-google" onclick="onLoadGoogleCallback()" id="googleSignIn" ><i class="fa fa-google"></i> Sign in with Google</a>
+        <a href="#" class="btn btn-social btn-linkedin"><i class="fa fa-linkedin"></i> Sign in with Linkedin</a>
+    </div>
+    <div class="signup-classic">
+        <h2>Or use the classical way</h2>
+        <h1 style="margin-top: 40px;">Login</h1>
+        <form class="form">
+            <fieldset class="email">
+                <input type="email" placeholder="email" />
+            </fieldset>
+            <fieldset class="password">
+                <input type="password" placeholder="password" />
+            </fieldset>
+            <button type="submit" class="btn">sign up</button>
+        </form>
+    </div>
+</div>
+<script src="/js/app.js"></script>
+</body>
+</html>
